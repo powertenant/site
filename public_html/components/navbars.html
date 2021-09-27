@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Oct 06 2020 08:56:08 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Mon Sep 27 2021 00:35:32 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f729410b8fa336e067207ef" data-wf-site="5f729410008cda109a4fe9a8">
 <head>
   <meta charset="utf-8">
@@ -34,11 +33,20 @@
     </div>
     <div class="components-wrapper">
       <div class="section full-screen navbar-section">
-        <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="nav-bar w-nav">
+        <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-bar w-nav">
           <div class="wrapper navbar-2 w-container">
-            <div class="div-block-8"><a href="../your-website/homepage.html" class="nav-logo-2 w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt=""></a></div>
-            <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="../your-website/product.html" class="nav-link-2 w-nav-link">Product</a><a href="../your-website/about.html" class="nav-link-2 w-nav-link">About</a><a href="../your-website/careers.html" class="nav-link-2 w-nav-link">Careers</a><a href="../your-website/work.html" class="nav-link-2 w-nav-link">Works</a><a href="../your-website/blog.html" class="nav-link-2 w-nav-link">Blog</a>
-              <div class="nav-cta-button-container"><a href="../your-website/contact.html" class="nav-link-2 border w-nav-link">Contact</a></div>
+            <div class="div-block-8">
+              <a href="../your-website/homepage.html" class="nav-logo-2 w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt=""></a>
+            </div>
+            <nav role="navigation" class="nav-menu-2 w-nav-menu">
+              <a href="../your-website/product.html" class="nav-link-2 w-nav-link">Product</a>
+              <a href="../your-website/about.html" class="nav-link-2 w-nav-link">About</a>
+              <a href="../your-website/careers.html" class="nav-link-2 w-nav-link">Careers</a>
+              <a href="../your-website/work.html" class="nav-link-2 w-nav-link">Works</a>
+              <a href="../your-website/blog.html" class="nav-link-2 w-nav-link">Blog</a>
+              <div class="nav-cta-button-container">
+                <a href="../your-website/contact.html" class="nav-link-2 border w-nav-link">Contact</a>
+              </div>
             </nav>
             <div class="menu-button-2 w-nav-button">
               <div class="burger-icon w-icon-nav-menu"></div>
@@ -48,9 +56,10 @@
       </div>
       <div class="section divider"></div>
       <div class="section full-screen navbar-section">
-        <div data-collapse="all" data-animation="default" data-duration="400" role="banner" class="nav-bar burger-nav w-nav">
+        <div data-collapse="all" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-bar burger-nav w-nav">
           <div class="wrapper mobile-navbar-container w-container">
-            <div class="flex-horizontal-space-between"><a href="../your-website/homepage.html" class="nav-logo-2 w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt=""></a>
+            <div class="flex-horizontal-space-between">
+              <a href="../your-website/homepage.html" class="nav-logo-2 w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt=""></a>
               <div class="menu-button-2 w-nav-button">
                 <div class="burger-icon w-icon-nav-menu"></div>
               </div>
@@ -80,25 +89,46 @@
       </div>
       <div class="section divider"></div>
       <div class="section full-screen navbar-section">
-        <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="nav-bar sample-website w-nav">
+        <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-bar sample-website w-nav">
           <div class="wrapper navbar-2 w-container">
-            <div class="div-block-8"><a href="../your-website/homepage.html" class="nav-logo-2 w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="106" alt=""></a></div>
+            <div class="div-block-8">
+              <a href="../your-website/homepage.html" class="nav-logo-2 w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="106" alt=""></a>
+            </div>
             <nav role="navigation" class="nav-menu-2 w-nav-menu">
-              <div data-delay="0" data-hover="1" class="dropdown w-dropdown">
+              <div data-delay="0" data-hover="true" class="dropdown w-dropdown">
                 <div class="nav-link-2 dropdown w-dropdown-toggle">
                   <div class="dropdown-chevron w-icon-dropdown-toggle"></div>
-                  <div><a href="../your-website/product.html" class="dropdown-link-text">Product</a></div>
+                  <div>
+                    <a href="../your-website/product.html" class="dropdown-link-text">Product</a>
+                  </div>
                 </div>
-                <nav class="dropdown-list-2 w-dropdown-list"><a href="http://legowerk.webflow.io/your-website/product#features" class="dropdown-link w-dropdown-link">Features</a><a href="http://legowerk.webflow.io/your-website/product#pricing" class="dropdown-link w-dropdown-link">Pricing</a><a href="http://legowerk.webflow.io/your-website/product#how-it-works" class="dropdown-link w-dropdown-link">How it works</a><a href="http://legowerk.webflow.io/your-website/product#faqs" class="dropdown-link w-dropdown-link">FAQs</a></nav>
+                <nav class="dropdown-list-2 w-dropdown-list">
+                  <a href="http://legowerk.webflow.io/your-website/product#features" class="dropdown-link w-dropdown-link">Features</a>
+                  <a href="http://legowerk.webflow.io/your-website/product#pricing" class="dropdown-link w-dropdown-link">Pricing</a>
+                  <a href="http://legowerk.webflow.io/your-website/product#how-it-works" class="dropdown-link w-dropdown-link">How it works</a>
+                  <a href="http://legowerk.webflow.io/your-website/product#faqs" class="dropdown-link w-dropdown-link">FAQs</a>
+                </nav>
               </div>
-              <div data-delay="0" class="dropdown w-dropdown">
+              <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
                 <div class="nav-link-2 dropdown w-dropdown-toggle">
                   <div class="dropdown-chevron w-icon-dropdown-toggle"></div>
-                  <div><a href="../your-website/about.html" class="dropdown-link-text">About</a></div>
+                  <div>
+                    <a href="../your-website/about.html" class="dropdown-link-text">About</a>
+                  </div>
                 </div>
-                <nav class="dropdown-list-2 w-dropdown-list"><a href="http://legowerk.webflow.io/your-website/about#clients" class="dropdown-link w-dropdown-link">Clients</a><a href="http://legowerk.webflow.io/your-website/about#testimonials" class="dropdown-link w-dropdown-link">Testimonials</a><a href="http://legowerk.webflow.io/your-website/about#team" class="dropdown-link w-dropdown-link">Team</a><a href="http://legowerk.webflow.io/your-website/about#offices" class="dropdown-link w-dropdown-link">Offices</a></nav>
-              </div><a href="../your-website/careers.html" class="nav-link-2 full-opacity w-nav-link">Careers</a><a href="../your-website/work.html" class="nav-link-2 full-opacity w-nav-link">Work</a><a href="../your-website/blog.html" class="nav-link-2 full-opacity w-nav-link">Blog</a>
-              <div class="nav-cta-button-container"><a href="../your-website/contact.html" class="nav-link-2 border cta w-nav-link">Contact</a></div>
+                <nav class="dropdown-list-2 w-dropdown-list">
+                  <a href="http://legowerk.webflow.io/your-website/about#clients" class="dropdown-link w-dropdown-link">Clients</a>
+                  <a href="http://legowerk.webflow.io/your-website/about#testimonials" class="dropdown-link w-dropdown-link">Testimonials</a>
+                  <a href="http://legowerk.webflow.io/your-website/about#team" class="dropdown-link w-dropdown-link">Team</a>
+                  <a href="http://legowerk.webflow.io/your-website/about#offices" class="dropdown-link w-dropdown-link">Offices</a>
+                </nav>
+              </div>
+              <a href="../your-website/careers.html" class="nav-link-2 full-opacity w-nav-link">Careers</a>
+              <a href="../your-website/work.html" class="nav-link-2 full-opacity w-nav-link">Work</a>
+              <a href="../your-website/blog.html" class="nav-link-2 full-opacity w-nav-link">Blog</a>
+              <div class="nav-cta-button-container">
+                <a href="../your-website/contact.html" class="nav-link-2 border cta w-nav-link">Contact</a>
+              </div>
             </nav>
             <div class="menu-button-2 w-nav-button">
               <div class="burger-icon w-icon-nav-menu"></div>
@@ -108,13 +138,24 @@
       </div>
       <div class="section divider"></div>
       <div class="section full-screen navbar-section">
-        <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="nav-bar w-nav">
+        <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav-bar w-nav">
           <div class="container-2 w-container">
-            <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="../your-website/product.html" class="nav-link-2 w-nav-link">Product</a><a href="../your-website/about.html" class="nav-link-2 w-nav-link">About</a><a href="../your-website/careers.html" class="nav-link-2 w-nav-link">Careers</a>
-              <div class="centred-logo-container"><a href="../your-website/homepage.html" class="nav-logo-2 w-hidden-medium w-hidden-small w-hidden-tiny w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt="" class="centred-logo"></a></div><a href="../your-website/work.html" class="nav-link-2 w-nav-link">Work</a><a href="../your-website/blog.html" class="nav-link-2 w-nav-link">Blog</a><a href="../your-website/contact.html" class="nav-link-2 w-nav-link">Contact</a></nav>
+            <nav role="navigation" class="nav-menu-2 w-nav-menu">
+              <a href="../your-website/product.html" class="nav-link-2 w-nav-link">Product</a>
+              <a href="../your-website/about.html" class="nav-link-2 w-nav-link">About</a>
+              <a href="../your-website/careers.html" class="nav-link-2 w-nav-link">Careers</a>
+              <div class="centred-logo-container">
+                <a href="../your-website/homepage.html" class="nav-logo-2 w-hidden-medium w-hidden-small w-hidden-tiny w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt="" class="centred-logo"></a>
+              </div>
+              <a href="../your-website/work.html" class="nav-link-2 w-nav-link">Work</a>
+              <a href="../your-website/blog.html" class="nav-link-2 w-nav-link">Blog</a>
+              <a href="../your-website/contact.html" class="nav-link-2 w-nav-link">Contact</a>
+            </nav>
             <div class="menu-button-2 w-nav-button">
               <div class="burger-icon w-icon-nav-menu"></div>
-            </div><a href="../your-website/homepage.html" class="nav-logo-2 w-hidden-main w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt="" class="centred-logo"></a></div>
+            </div>
+            <a href="../your-website/homepage.html" class="nav-logo-2 w-hidden-main w-inline-block"><img src="../images/Legowerk-blue-vector-logo.svg" width="104" alt="" class="centred-logo"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -160,25 +201,51 @@
         </div>
       </div>
     </div>
-    <div data-collapse="all" data-animation="default" data-duration="400" data-doc-height="1" data-no-scroll="1" role="banner" class="navbar fixed w-nav">
-      <div class="wrapper navbar"><a href="../index.html" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bc3" class="logo rel w-inline-block"><img src="../images/power-tenant_onlylogo.png" width="60" alt="" class="logo-navbar white"></a>
+    <div data-animation="default" class="navbar fixed w-nav" data-easing2="ease" data-easing="ease" data-collapse="all" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
+      <div class="wrapper navbar">
+        <a href="../index.html" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bc3" class="logo rel w-inline-block"><img src="../images/power-tenant_onlylogo.png" width="60" alt="" class="logo-navbar white"></a>
         <nav role="navigation" class="nav-menu-container w-nav-menu">
-          <div data-delay="0" class="w-dropdown">
+          <div data-delay="0" data-hover="false" class="w-dropdown">
             <div class="nav-link-3 w-dropdown-toggle">
               <div class="icon-2 w-icon-dropdown-toggle"></div>
               <div class="text-block-2">Components</div>
             </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="../components/navbars.html" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current">Navbars</a><a href="../components/footers.html" class="nav-dropdown-link w-dropdown-link">Footers</a><a href="../components/features.html" class="nav-dropdown-link w-dropdown-link">Features</a><a href="../components/value-propositions.html" class="nav-dropdown-link w-dropdown-link">Value proposition</a><a href="../components/blog.html" class="nav-dropdown-link w-dropdown-link">Blog</a><a href="../components/pricing-tables.html" class="nav-dropdown-link w-dropdown-link">Pricing tables</a><a href="../components/testimonials.html" class="nav-dropdown-link w-dropdown-link">Testimonials</a><a href="../components/headers.html" class="nav-dropdown-link w-dropdown-link">Headers</a><a href="../components/ctaa.html" class="nav-dropdown-link w-dropdown-link">CTAs</a><a href="../components/faqs.html" class="nav-dropdown-link w-dropdown-link">FAQs</a><a href="../components/galleries.html" class="nav-dropdown-link w-dropdown-link">Galleries</a><a href="../components/team.html" class="nav-dropdown-link w-dropdown-link">Team</a><a href="../components/portfolio.html" class="nav-dropdown-link w-dropdown-link">Portfolio</a><a href="../components/how-it-works.html" class="nav-dropdown-link w-dropdown-link">How it works</a></nav>
-          </div><a href="../your-website/homepage.html" class="nav-link-3 w-nav-link">Your website</a>
-          <div data-delay="0" class="w-dropdown">
+            <nav class="dropdown-list w-dropdown-list">
+              <a href="../components/navbars.html" aria-current="page" class="nav-dropdown-link w-dropdown-link w--current">Navbars</a>
+              <a href="../components/footers.html" class="nav-dropdown-link w-dropdown-link">Footers</a>
+              <a href="../components/features.html" class="nav-dropdown-link w-dropdown-link">Features</a>
+              <a href="../components/value-propositions.html" class="nav-dropdown-link w-dropdown-link">Value proposition</a>
+              <a href="../components/blog.html" class="nav-dropdown-link w-dropdown-link">Blog</a>
+              <a href="../components/pricing-tables.html" class="nav-dropdown-link w-dropdown-link">Pricing tables</a>
+              <a href="../components/testimonials.html" class="nav-dropdown-link w-dropdown-link">Testimonials</a>
+              <a href="../components/headers.html" class="nav-dropdown-link w-dropdown-link">Headers</a>
+              <a href="../components/ctaa.html" class="nav-dropdown-link w-dropdown-link">CTAs</a>
+              <a href="../components/faqs.html" class="nav-dropdown-link w-dropdown-link">FAQs</a>
+              <a href="../components/galleries.html" class="nav-dropdown-link w-dropdown-link">Galleries</a>
+              <a href="../components/team.html" class="nav-dropdown-link w-dropdown-link">Team</a>
+              <a href="../components/portfolio.html" class="nav-dropdown-link w-dropdown-link">Portfolio</a>
+              <a href="../components/how-it-works.html" class="nav-dropdown-link w-dropdown-link">How it works</a>
+            </nav>
+          </div>
+          <a href="../your-website/homepage.html" class="nav-link-3 w-nav-link">Your website</a>
+          <div data-delay="0" data-hover="false" class="w-dropdown">
             <div class="nav-link-3 w-dropdown-toggle">
               <div class="w-icon-dropdown-toggle"></div>
               <div class="text-block-2">More</div>
             </div>
-            <nav class="dropdown-list w-dropdown-list"><a href="../legowerk/styleguide.html" class="nav-dropdown-link w-dropdown-link">Styleguide</a><a href="../legowerk/documentation.html" class="nav-dropdown-link w-dropdown-link">How to use</a><a href="https://www.paypal.me/dariostefanutto" target="_blank" class="nav-dropdown-link w-dropdown-link">Donate</a></nav>
+            <nav class="dropdown-list w-dropdown-list">
+              <a href="../legowerk/styleguide.html" class="nav-dropdown-link w-dropdown-link">Styleguide</a>
+              <a href="../legowerk/documentation.html" class="nav-dropdown-link w-dropdown-link">How to use</a>
+              <a href="https://www.paypal.me/dariostefanutto" target="_blank" class="nav-dropdown-link w-dropdown-link">Donate</a>
+            </nav>
           </div>
         </nav>
-        <div class="navbar-links-container w-hidden-medium w-hidden-small w-hidden-tiny"><a href="#" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bc8" class="nav-link hidden-nav-link">Property Owners</a><a href="../your-website/homepage.html" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bcc" class="nav-link hidden-nav-link">Tenants</a><a href="#" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bd0" class="nav-link hidden-nav-link">AGENTS</a><a href="http://eepurl.com/heNurT" target="_blank" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bd2" class="nav-link cta">Get PowerTenant</a></div>
+        <div class="navbar-links-container w-hidden-medium w-hidden-small w-hidden-tiny">
+          <a href="#" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bc8" class="nav-link hidden-nav-link">Property Owners</a>
+          <a href="../your-website/homepage.html" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bcc" class="nav-link hidden-nav-link">Tenants</a>
+          <a href="#" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bd0" class="nav-link hidden-nav-link">AGENTS</a>
+          <a href="http://eepurl.com/heNurT" target="_blank" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bd2" class="nav-link cta">Get PowerTenant</a>
+        </div>
         <div class="menu-button-3 w-hidden-main w-nav-button">
           <div class="white-burger w-icon-nav-menu"></div>
         </div>
@@ -321,10 +388,13 @@
           </div>
         </div>
       </div>
-    </div><a href="#" data-w-id="9041db25-7d24-6afe-42b9-2a1fd7cebb77" class="toggle-grid w-inline-block"><img src="../images/grid.svg" alt="" class="grid-icon"></a>
-    <div class="section legowerk-footer">
+    </div>
+    <a href="#" data-w-id="9041db25-7d24-6afe-42b9-2a1fd7cebb77" class="toggle-grid w-inline-block"><img src="../images/grid.svg" alt="" class="grid-icon"></a>
+    <div class="section legowerk-footer wf-section">
       <div class="wrapper">
-        <p class="paragraph-small footer">Copyright <strong>PowerTenant Pty Ltd</strong><a href="mailto:yoakim@powertenant.com" target="_blank"></a></p>
+        <p class="paragraph-small footer">Copyright <strong>PowerTenant Pty Ltd</strong>
+          <a href="mailto:yoakim@powertenant.com" target="_blank"></a>
+        </p>
       </div>
     </div>
   </div>
